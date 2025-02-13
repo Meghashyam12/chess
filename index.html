@@ -17,10 +17,10 @@
         background-color: brown;
         width: 800px;
         height: 800px;
-        margin-left: 492px;
-        border: double dark 15px;
+        border: 15px double black;
         box-sizing: content-box;
         border-radius: 8px;
+        margin-left: 20px;
       }
       .square {
         height: 100px;
@@ -37,286 +37,333 @@
         width: 100%;
         height: 100%;
       }
+      .odd {
+        color: #69923e;
+      }
+      .even {
+        color: #eeeed2;
+      }
+      .number {
+        float: left;
+        width: 10px;
+        height: 50px;
+        margin-top: 50px;
+        font-size: 24px;
+      }
+      #alphabets {
+        margin-top: 875px;
+        margin-left: 500px;
+      }
+      .alphabet {
+        float: left;
+        font-size: 24px;
+        margin-left: 50px;
+        width: 50px;
+      }
     </style>
   </head>
   <body>
     <header>
       <h1 id="chess-header">CHESS</h1>
     </header>
-    <div id="board">
-      <div id="board-row-8" class="board-row-even">
-        <div id="a8" class="light square">
-          <img
-            src="./assets/images/dark-rook.png"
-            alt="dark-rook"
-            class="icon"
-          />
-        </div>
-        <div id="b8" class="dark square">
-          <img
-            src="./assets/images/dark-knight.png"
-            alt="dark-knight"
-            class="icon"
-          />
-        </div>
-        <div id="c8" class="light square">
-          <img
-            src="./assets/images/dark-bishop.png"
-            alt="dark-bishop.png"
-            class="icon"
-          />
-        </div>
-        <div id="d8" class="dark square">
-          <img
-            src="./assets/images/dark-queen.png"
-            alt="dark-queen"
-            class="icon"
-          />
-        </div>
-        <div id="e8" class="light square">
-          <img
-            src="./assets/images/dark-king.png"
-            alt="dark-king"
-            class="icon"
-          />
-        </div>
-        <div id="f8" class="dark square">
-          <img
-            src="./assets/images/dark-bishop.png"
-            alt="dark-bishop"
-            class="icon"
-          />
-        </div>
-        <div id="g8" class="light square">
-          <img
-            src="./assets/images/dark-knight.png"
-            alt="dark-knight"
-            class="icon"
-          />
-        </div>
-        <div id="h8" class="dark square">
-          <img
-            src="./assets/images/dark-rook.png"
-            alt="dark-rook"
-            class="icon"
-          />
+    <div style="width: 100%; margin-left: 456px">
+      <div style="width: 10px; float: left; color: white">
+        <div id="numbers">
+          <div class="odd number">8</div>
+          <div class="even number">7</div>
+          <div class="odd number">6</div>
+          <div class="even number">5</div>
+          <div class="odd number">4</div>
+          <div class="even number">3</div>
+          <div class="odd number">2</div>
+          <div class="even number">1</div>
         </div>
       </div>
-      <div id="board-row-7" class="board-row-odd">
-        <div id="a7" class="dark square">
-          <img
-            class="icon"
-            src="./assets/images/dark-pawn.png"
-            alt="dark-pawn"
-          />
+      <div id="board" style="float: left">
+        <div id="board-row-8">
+          <div id="a8" class="light square">
+            <img
+              src="./assets/images/dark-rook.png"
+              alt="dark-rook"
+              class="icon"
+            />
+          </div>
+          <div id="b8" class="dark square">
+            <img
+              src="./assets/images/dark-knight.png"
+              alt="dark-knight"
+              class="icon"
+            />
+          </div>
+          <div id="c8" class="light square">
+            <img
+              src="./assets/images/dark-bishop.png"
+              alt="dark-bishop.png"
+              class="icon"
+            />
+          </div>
+          <div id="d8" class="dark square">
+            <img
+              src="./assets/images/dark-queen.png"
+              alt="dark-queen"
+              class="icon"
+            />
+          </div>
+          <div id="e8" class="light square">
+            <img
+              src="./assets/images/dark-king.png"
+              alt="dark-king"
+              class="icon"
+            />
+          </div>
+          <div id="f8" class="dark square">
+            <img
+              src="./assets/images/dark-bishop.png"
+              alt="dark-bishop"
+              class="icon"
+            />
+          </div>
+          <div id="g8" class="light square">
+            <img
+              src="./assets/images/dark-knight.png"
+              alt="dark-knight"
+              class="icon"
+            />
+          </div>
+          <div id="h8" class="dark square">
+            <img
+              src="./assets/images/dark-rook.png"
+              alt="dark-rook"
+              class="icon"
+            />
+          </div>
         </div>
-        <div id="b7" class="light square">
-          <img
-            class="icon"
-            src="./assets/images/dark-pawn.png"
-            alt="dark-pawn"
-          />
+        <div id="board-row-7">
+          <div id="a7" class="dark square">
+            <img
+              class="icon"
+              src="./assets/images/dark-pawn.png"
+              alt="dark-pawn"
+            />
+          </div>
+          <div id="b7" class="light square">
+            <img
+              class="icon"
+              src="./assets/images/dark-pawn.png"
+              alt="dark-pawn"
+            />
+          </div>
+          <div id="c7" class="dark square">
+            <img
+              class="icon"
+              src="./assets/images/dark-pawn.png"
+              alt="dark-pawn"
+            />
+          </div>
+          <div id="d7" class="light square">
+            <img
+              class="icon"
+              src="./assets/images/dark-pawn.png"
+              alt="dark-pawn"
+            />
+          </div>
+          <div id="e7" class="dark square">
+            <img
+              class="icon"
+              src="./assets/images/dark-pawn.png"
+              alt="dark-pawn"
+            />
+          </div>
+          <div id="f7" class="light square">
+            <img
+              class="icon"
+              src="./assets/images/dark-pawn.png"
+              alt="dark-pawn"
+            />
+          </div>
+          <div id="g7" class="dark square">
+            <img
+              class="icon"
+              src="./assets/images/dark-pawn.png"
+              alt="dark-pawn"
+            />
+          </div>
+          <div id="h7" class="light square">
+            <img
+              class="icon"
+              src="./assets/images/dark-pawn.png"
+              alt="dark-pawn"
+            />
+          </div>
         </div>
-        <div id="c7" class="dark square">
-          <img
-            class="icon"
-            src="./assets/images/dark-pawn.png"
-            alt="dark-pawn"
-          />
+        <div id="board-row-6">
+          <div id="a6" class="light square"></div>
+          <div id="b6" class="dark square"></div>
+          <div id="c6" class="light square"></div>
+          <div id="d6" class="dark square"></div>
+          <div id="e6" class="light square"></div>
+          <div id="f6" class="dark square"></div>
+          <div id="g6" class="light square"></div>
+          <div id="h6" class="dark square"></div>
         </div>
-        <div id="d7" class="light square">
-          <img
-            class="icon"
-            src="./assets/images/dark-pawn.png"
-            alt="dark-pawn"
-          />
+        <div id="board-row-5">
+          <div id="a5" class="dark square"></div>
+          <div id="b5" class="light square"></div>
+          <div id="c5" class="dark square"></div>
+          <div id="d5" class="light square"></div>
+          <div id="e5" class="dark square"></div>
+          <div id="f5" class="light square"></div>
+          <div id="g5" class="dark square"></div>
+          <div id="h5" class="light square"></div>
         </div>
-        <div id="e7" class="dark square">
-          <img
-            class="icon"
-            src="./assets/images/dark-pawn.png"
-            alt="dark-pawn"
-          />
+        <div id="board-row-4">
+          <div id="a4" class="light square"></div>
+          <div id="b4" class="dark square"></div>
+          <div id="c4" class="light square"></div>
+          <div id="d4" class="dark square"></div>
+          <div id="e4" class="light square"></div>
+          <div id="f4" class="dark square"></div>
+          <div id="g4" class="light square"></div>
+          <div id="h4" class="dark square"></div>
         </div>
-        <div id="f7" class="light square">
-          <img
-            class="icon"
-            src="./assets/images/dark-pawn.png"
-            alt="dark-pawn"
-          />
+        <div id="board-row-3">
+          <div id="a3" class="dark square"></div>
+          <div id="b3" class="light square"></div>
+          <div id="c3" class="dark square"></div>
+          <div id="d3" class="light square"></div>
+          <div id="e3" class="dark square"></div>
+          <div id="f3" class="light square"></div>
+          <div id="g3" class="dark square"></div>
+          <div id="h3" class="light square"></div>
         </div>
-        <div id="g7" class="dark square">
-          <img
-            class="icon"
-            src="./assets/images/dark-pawn.png"
-            alt="dark-pawn"
-          />
-        </div>
-        <div id="h7" class="light square">
-          <img
-            class="icon"
-            src="./assets/images/dark-pawn.png"
-            alt="dark-pawn"
-          />
-        </div>
-      </div>
-      <div id="board-row-6" class="board-row-even">
-        <div id="a6" class="light square"></div>
-        <div id="b6" class="dark square"></div>
-        <div id="c6" class="light square"></div>
-        <div id="d6" class="dark square"></div>
-        <div id="e6" class="light square"></div>
-        <div id="f6" class="dark square"></div>
-        <div id="g6" class="light square"></div>
-        <div id="h6" class="dark square"></div>
-      </div>
-      <div id="board-row-5" class="board-row-odd">
-        <div id="a5" class="dark square"></div>
-        <div id="b5" class="light square"></div>
-        <div id="c5" class="dark square"></div>
-        <div id="d5" class="light square"></div>
-        <div id="e5" class="dark square"></div>
-        <div id="f5" class="light square"></div>
-        <div id="g5" class="dark square"></div>
-        <div id="h5" class="light square"></div>
-      </div>
-      <div id="board-row-4" class="board-row-even">
-        <div id="a4" class="light square"></div>
-        <div id="b4" class="dark square"></div>
-        <div id="c4" class="light square"></div>
-        <div id="d4" class="dark square"></div>
-        <div id="e4" class="light square"></div>
-        <div id="f4" class="dark square"></div>
-        <div id="g4" class="light square"></div>
-        <div id="h4" class="dark square"></div>
-      </div>
-      <div id="board-row-3" class="board-row-odd">
-        <div id="a3" class="dark square"></div>
-        <div id="b3" class="light square"></div>
-        <div id="c3" class="dark square"></div>
-        <div id="d3" class="light square"></div>
-        <div id="e3" class="dark square"></div>
-        <div id="f3" class="light square"></div>
-        <div id="g3" class="dark square"></div>
-        <div id="h3" class="light square"></div>
-      </div>
-      <div id="board-row-2" class="board-row-even">
-        <div id="a2" class="light square">
-          <img
-            class="icon"
-            src="./assets/images/light-pawn.png"
-            alt="light-pawn"
-          />
-        </div>
-        <div id="b2" class="dark square">
-          <img
-            class="icon"
-            src="./assets/images/light-pawn.png"
-            alt="light-pawn"
-          />
-        </div>
+        <div id="board-row-2">
+          <div id="a2" class="light square">
+            <img
+              class="icon"
+              src="./assets/images/light-pawn.png"
+              alt="light-pawn"
+            />
+          </div>
+          <div id="b2" class="dark square">
+            <img
+              class="icon"
+              src="./assets/images/light-pawn.png"
+              alt="light-pawn"
+            />
+          </div>
 
-        <div id="c2" class="light square">
-          <img
-            class="icon"
-            src="./assets/images/light-pawn.png"
-            alt="light-pawn"
-          />
+          <div id="c2" class="light square">
+            <img
+              class="icon"
+              src="./assets/images/light-pawn.png"
+              alt="light-pawn"
+            />
+          </div>
+          <div id="d2" class="dark square">
+            <img
+              class="icon"
+              src="./assets/images/light-pawn.png"
+              alt="light-pawn"
+            />
+          </div>
+          <div id="e2" class="light square">
+            <img
+              class="icon"
+              src="./assets/images/light-pawn.png"
+              alt="light-pawn"
+            />
+          </div>
+          <div id="f2" class="dark square">
+            <img
+              class="icon"
+              src="./assets/images/light-pawn.png"
+              alt="light-pawn"
+            />
+          </div>
+          <div id="g2" class="light square">
+            <img
+              class="icon"
+              src="./assets/images/light-pawn.png"
+              alt="light-pawn"
+            />
+          </div>
+          <div id="h2" class="dark square">
+            <img
+              class="icon"
+              src="./assets/images/light-pawn.png"
+              alt="light-pawn"
+            />
+          </div>
         </div>
-        <div id="d2" class="dark square">
-          <img
-            class="icon"
-            src="./assets/images/light-pawn.png"
-            alt="light-pawn"
-          />
-        </div>
-        <div id="e2" class="light square">
-          <img
-            class="icon"
-            src="./assets/images/light-pawn.png"
-            alt="light-pawn"
-          />
-        </div>
-        <div id="f2" class="dark square">
-          <img
-            class="icon"
-            src="./assets/images/light-pawn.png"
-            alt="light-pawn"
-          />
-        </div>
-        <div id="g2" class="light square">
-          <img
-            class="icon"
-            src="./assets/images/light-pawn.png"
-            alt="light-pawn"
-          />
-        </div>
-        <div id="h2" class="dark square">
-          <img
-            class="icon"
-            src="./assets/images/light-pawn.png"
-            alt="light-pawn"
-          />
+        <div id="board-row-1">
+          <div id="a1" class="dark square">
+            <img
+              src="./assets/images/light-rook.png"
+              alt="light-rook"
+              class="icon"
+            />
+          </div>
+          <div id="b1" class="light square">
+            <img
+              src="./assets/images/light-knight.png"
+              alt="light-knight"
+              class="icon"
+            />
+          </div>
+          <div id="c1" class="dark square">
+            <img
+              src="./assets/images/light-bishop.png"
+              alt="light-bishop"
+              class="icon"
+            />
+          </div>
+          <div id="d1" class="light square">
+            <img
+              src="./assets/images/light-queen.png"
+              alt="light-queen"
+              class="icon"
+            />
+          </div>
+          <div id="e1" class="dark square">
+            <img
+              src="./assets/images/light-king.png"
+              alt="light-king"
+              class="icon"
+            />
+          </div>
+          <div id="f1" class="light square">
+            <img
+              src="./assets/images/light-bishop.png"
+              alt="light-bishop"
+              class="icon"
+            />
+          </div>
+          <div id="g1" class="dark square">
+            <img
+              src="./assets/images/light-knight.png"
+              alt="light-knight"
+              class="icon"
+            />
+          </div>
+          <div id="h1" class="light square">
+            <img
+              src="./assets/images/light-rook.png"
+              alt="light-rook"
+              class="icon"
+            />
+          </div>
         </div>
       </div>
-      <div id="board-row-1" class="board-row-odd">
-        <div id="a1" class="dark square">
-          <img
-            src="./assets/images/light-rook.png"
-            alt="light-rook"
-            class="icon"
-          />
-        </div>
-        <div id="b1" class="light square">
-          <img
-            src="./assets/images/light-knight.png"
-            alt="light-knight"
-            class="icon"
-          />
-        </div>
-        <div id="c1" class="dark square">
-          <img
-            src="./assets/images/light-bishop.png"
-            alt="light-bishop"
-            class="icon"
-          />
-        </div>
-        <div id="d1" class="light square">
-          <img
-            src="./assets/images/light-queen.png"
-            alt="light-queen"
-            class="icon"
-          />
-        </div>
-        <div id="e1" class="dark square">
-          <img
-            src="./assets/images/light-king.png"
-            alt="light-king"
-            class="icon"
-          />
-        </div>
-        <div id="f1" class="light square">
-          <img
-            src="./assets/images/light-bishop.png"
-            alt="light-bishop"
-            class="icon"
-          />
-        </div>
-        <div id="g1" class="dark square">
-          <img
-            src="./assets/images/light-knight.png"
-            alt="light-knight"
-            class="icon"
-          />
-        </div>
-        <div id="h1" class="light square">
-          <img
-            src="./assets/images/light-rook.png"
-            alt="light-rook"
-            class="icon"
-          />
-        </div>
-      </div>
+    </div>
+    <div id="alphabets">
+      <div class="odd alphabet">a</div>
+      <div class="even alphabet">b</div>
+      <div class="odd alphabet">c</div>
+      <div class="even alphabet">d</div>
+      <div class="odd alphabet">e</div>
+      <div class="even alphabet">f</div>
+      <div class="odd alphabet">g</div>
+      <div class="even alphabet">h</div>
     </div>
   </body>
 </html>
