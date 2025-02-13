@@ -21,6 +21,19 @@
         box-sizing: content-box;
         border-radius: 8px;
         margin-left: 20px;
+        float: left;
+      }
+      #container {
+        margin-left: 25%;
+      }
+      #numbers {
+        width: 10px;
+        float: left;
+        color: white;
+      }
+      #alphabets {
+        margin-top: 48.5%;
+        margin-left: 27%;
       }
       .square {
         height: 100px;
@@ -50,10 +63,6 @@
         margin-top: 50px;
         font-size: 24px;
       }
-      #alphabets {
-        margin-top: 48.5%;
-        margin-left: 27%;
-      }
       .alphabet {
         float: left;
         font-size: 24px;
@@ -66,20 +75,18 @@
     <header>
       <h1 id="chess-header">CHESS</h1>
     </header>
-    <div style="margin-left: 25%">
-      <div style="width: 10px; float: left; color: white">
-        <div id="numbers">
-          <div class="odd number">8</div>
-          <div class="even number">7</div>
-          <div class="odd number">6</div>
-          <div class="even number">5</div>
-          <div class="odd number">4</div>
-          <div class="even number">3</div>
-          <div class="odd number">2</div>
-          <div class="even number">1</div>
-        </div>
+    <div id="container">
+      <div id="numbers">
+        <div class="odd number">8</div>
+        <div class="even number">7</div>
+        <div class="odd number">6</div>
+        <div class="even number">5</div>
+        <div class="odd number">4</div>
+        <div class="even number">3</div>
+        <div class="odd number">2</div>
+        <div class="even number">1</div>
       </div>
-      <div id="board" style="float: left">
+      <div id="board">
         <div id="board-row-8">
           <div id="a8" class="light square">
             <img
