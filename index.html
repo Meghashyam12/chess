@@ -4,14 +4,21 @@
     <title>Chess</title>
     <style>
       body {
-        margin: 0px;
-        background-color: #1f2833;
+        margin: 0;
+        padding: 0;
+        background-image: url("./assets/images/background-image.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-sizing: border-box;
+        font-family: monospace;
       }
       #chess-header {
+        margin: 0px;
         text-align: center;
-        color: white;
+        color: wheat;
         letter-spacing: 5px;
-        font-size: 48px;
+        font-weight: 900;
+        font-size: 72px;
       }
       #board {
         background-color: brown;
@@ -68,6 +75,11 @@
         font-size: 24px;
         margin-left: 50px;
         width: 50px;
+      }
+      .square:hover {
+        background-color: #baca44;
+        box-sizing: border-box;
+        border: 5px solid rgba(255, 255, 255, 0.5);
       }
     </style>
   </head>
